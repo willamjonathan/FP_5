@@ -7,6 +7,7 @@
                 background-image: linear-gradient(to right,WHITE);
                 
             }
+                /* header or upper part of the page styling */
             .header{
                 position: absolute;
                 top:0%;
@@ -16,6 +17,7 @@
                 background-color:#4A6572 ;
                 border-bottom: 3px solid black;
             }
+                /* the back page arrow which redirect you to the page before */
             .header .fas{
                 position: relative;
                 left:5%;
@@ -27,6 +29,7 @@
                 left:3%;
                 bottom:30%;
             }
+                /* page title styling */
             .prog{
                 font-family: 'Times New Roman', Times, serif;
                 font-size: 30px;
@@ -38,6 +41,7 @@
                 font-weight: bold;
                 color:#f9aa33;
             }
+                /* lets iinc program box styling */
             .inc{
                 display:block;
                 border:3px solid black;
@@ -55,10 +59,12 @@
                 color:black;
                 
             }
+                /* hovering doesn't work */
             a:hover{
                 color:blue;
 
             }
+                /* lets maintain program or box */
             .maintain{
                 display:block;
                 border:3px solid black;
@@ -75,10 +81,12 @@
                 color:black;
                 
             }
+                /* hovering doesnt work */
             a:hover{
                 color:blue;
 
             }
+                /* lets decrease program or box*/
             .dec{
                 display:block;
                 border:3px solid black;
@@ -94,11 +102,12 @@
                 color:black;
                 
             }
+                /* hovering doesn't work */
             a:hover{
                 color:blue;
 
             }
-
+                /* explanation of the program box */
             .exp{
                 position:absolute;
                 top:60%;
@@ -112,7 +121,7 @@
                 /* So it can be scrolled down */
                 overflow: auto;
             }
-
+        /* footer part or the under part of the page */
             .footer{
                 position:fixed;
                 bottom:0%;
@@ -129,6 +138,7 @@
                 right:5%;
                 font-family:'Courier New', Courier, monospace;
             }
+               /* profile pict icon which can be clicked and will redirect you to the profile picture page */
             .footer .fas{
                 position: absolute;
                 bottom:25%;
@@ -145,24 +155,27 @@
 
     </head>
     <body>
-        <div class = "header">
+        <div class = "header"><!--- upper part of the page --->
             <div class ='prog'><c>CHOOSE YOUR PROGRAM</c></div>
+            <!--- the back arrow --->
             <div class ='back'><a href="https://willamjonathan.github.io/FP_4/"style="color:black;text-decoration:none;">
                     <i class="fas fa-caret-left fa-2x"></i> </a>
             </div>    
         </div>
+        <!--- your program the lets inc, lets maintain and lets dec program box --->
         <div class = 'inc'><a href="https://willamjonathan.github.io/FP_6a/"style="color:black;text-decoration:none;font-weight:bold;position: relative;top:20%;left:25%;">Let's inc</a></div>
         <div class ='maintain'><a href="https://willamjonathan.github.io/FP_6b/"style="color:black;text-decoration:none;font-weight:bold;position: relative;top:20%;left:12%">Let's maintain</a></div>
         <div class = 'dec'><a href="https://willamjonathan.github.io/FP_6c/"style="color:black;text-decoration:none;font-weight:bold;position: relative;top:20%;left:25%">Let's dec</a></div>
         <div class ="exp">
-            <p style="font-size: 45px;"><b>EXPLANATION</b></p>
+            <p style="font-size: 45px;"><b>EXPLANATION</b></p> <!--- explanation box --->
             <p>Let's inc program is program made for people who are underweight and want to increase their weight.</p>
             <p>Let's maintain program is program made for people who want to maintain their weight as they already have an ideal body mass.</p>
             <p>Let's dec program is program made for people who are obese or overweight to decrease their weight.</p>
 
         </div>
+        <!--- the lower part of the page or footer --->
         <div class ="footer">
-            
+            <!--- the profile picture icon which can be clicked logo --->
             <a href="https://willamjonathan.github.io/FP_11/"> <i class="fas fa-user-circle fa-3x"></i></a>
             <div class ="moto"><b>YOUR HEALTHY SOLUTION</b></div>
         </div>
